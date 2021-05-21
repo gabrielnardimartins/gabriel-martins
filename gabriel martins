@@ -1,0 +1,27 @@
+// SPDX-License-Identifier: CC-BY-4.0
+pragma solidity 0.8.4;
+
+
+
+contract PrestacaoDeServico {
+    
+    string public contratante;
+    string public contratado;
+    uint256 public valorDoServico;
+    string public descricaoDeServico;
+    
+    
+    constructor() {
+        contratante = "Felipe";
+        contratado = "Fabio";
+        valorDoServico = 10000;
+        descricaoDeServico = "manutencao";
+    }
+    
+    
+    
+function multaDeRecisao(uint256 valorMulta) public view{
+    valorMulta = valorDoServico/10;}
+}
+
+
